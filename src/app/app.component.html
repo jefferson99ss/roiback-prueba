@@ -1,20 +1,146 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="wrapper">
+  <header>
+    <div class="left">
+      <div class="one">
+        <span
+          ><img src=".\assets\images\header\wpp.png" alt="icono whatsapp"
+        /></span>
+        <span>34869594944</span>
+      </div>
+      <div class="two">
+        <span
+          ><img src=".\assets\images\header\phone.png" alt="icono telefono"
+        /></span>
+        <span>3145655577</span>
+      </div>
+    </div>
+    <div class="rigth">
+      <span
+        ><img src=".\assets\images\header\friend.png" alt="icono usuario"
+      /></span>
+      <span></span>
+      <span
+        ><img src=".\assets\images\header\agency.png" alt="icono agencia"/>
+        <img src=".\assets\images\header\Shape.png" alt="shape"
+      /></span>
+      <span
+        >ESPAÑOL<img src=".\assets\images\header\Shape.png" alt="shape"
+      /></span>
+      <button>MI RESERVA</button>
+    </div>
+  </header>
+  <content>
+    <section class="one">
+      <div class="section-one-header">
+        <span><h1>BCN URBANY</h1></span>
+        <span></span>
+        <span>HOTELS</span>
+        <button (click)="openCloseMenu()">
+          <img
+            src=".\assets\images\header\menu hamburguesa.png"
+            alt="icono menu"
+          />
+        </button>
+      </div>
+      <div class="section-one-body">
+        <span class="title">WHAT'S HAPPINESS?</span>
+        <div class="content">
+          <mat-form-field>
+            <mat-label>BCN Urban Hotels Gran Ducat</mat-label>
+            <mat-select>
+              <mat-option >
+                  option 1 
+              </mat-option>
+              <mat-option >
+                option 2  
+            </mat-option>
+            </mat-select>
+          </mat-form-field>
+            <div class="date">
+              <div class="left">
+                <span>CHECK-IN</span>
+                <span>27</span>
+                <span>NOV 2019</span>
+              </div>
+              <span><mat-icon>keyboard_arrow_right</mat-icon></span>
+              <div class="right">
+                <span>ENTRADA</span>
+                <span>29</span>
+                <span>NOV 2019</span>
+              </div>
+            </div>
+          <mat-form-field>
+            <mat-label>Promotional code</mat-label>
+            <input matInput placeholder="344DFG3">
+          </mat-form-field>
 
+          <div class="consult">
+            <span>CONSULTAR</span>
+            <span>DISPONIBILIDAD</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="two">
+      <div class="section-two-header">
+        <div class="item">
+          <span><img src=".\assets\images\icons\web oficial.png" alt=""> WEB OFICIAL</span>
+        </div>
+        <div class="item">
+          <span><img src=".\assets\images\icons\wifi.png" alt=""> WIFI GRATIS</span>
+
+        </div>
+        <div class="item">
+          <span><img src=".\assets\images\icons\desayuno.png" alt=""> DESAYUNO</span>
+
+        </div>
+        <div class="item">
+          <span><img src=".\assets\images\icons\espacio libre de humo.png" alt="">ESPACIO LIBRE DE HUMO</span>
+
+        </div>
+      </div>
+      <div class="section-two-body">
+        <div class="principal">
+          <span><img src=".\assets\images\header\elemento tittulos.png" alt="">VENTAJAS EXCLUSIVAS</span>
+          <span>EN LA WEB OFICIAL</span>
+        </div>
+        <div class="item">
+          <img src=".\assets\images\advantage\mejor precio.png" alt="">
+          <span>MEJOR PRECIO GARANTIZADO</span>
+        </div>
+        <div class="item">
+          <img src=".\assets\images\advantage\ofertas exclusivas.png" alt="">
+          <span>OFERTAS EXCLUSIVAS</span>
+        </div>
+        <div class="item">
+          <img src=".\assets\images\advantage\Ventajas especiales.png" alt="">
+          <span>OFERTAS EXCLUSIVAS</span>
+        </div>
+        <div class="item">
+          <img src=".\assets\images\advantage\hotel 100 accesible.png" alt="">
+          <span>HOTELES 100% ACCESIBLES</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="menu" [ngClass]="{'open-menu': openCloseMenuAnimation, 'close-menu': !openCloseMenuAnimation}">
+      <button (click)="openCloseMenu()">
+        <img
+          src=".\assets\images\header\Salir menu.png"
+          alt="icono close menu"
+        />
+      </button>
+
+      <ul>
+        <li><a>HOTEL</a></li>
+        <li><a>OFERTAS</a></li>
+        <li><a>SERVICIOS</a></li>
+        <li><a>HABITACIONES</a></li>
+        <li><a>FOTOS</a></li>
+        <li><a>CONTACTO</a></li>
+        <li><a>OPINIONES</a></li>
+        <li> <a>MAPA</a>  </li>
+      </ul>
+    </div>
+  </content>
+</div>

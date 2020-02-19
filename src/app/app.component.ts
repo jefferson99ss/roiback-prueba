@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
   title = 'prueba-roiback';
+  openCloseMenuAnimation: boolean = false
+
+  openCloseMenu(){    
+    this.openCloseMenuAnimation = !this.openCloseMenuAnimation
+  }
 }
